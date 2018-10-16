@@ -1,38 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Allura');
+@import url("https://fonts.googleapis.com/css?family=Allura");
 
- body {
+body {
   font-family: "Allura", cursive !important;
-  position: fixed;
-  width: 100vw !important;
-  height: 100vh !important;
-  padding: 0;
-  margin: 0;
+
   background: url(http://evewithoutadam.com/assets/stromae-1.jpeg) no-repeat;
-  background-size: 100%;
-   
+  background-size: cover;
 }
 
 .keys {
   display: flex;
-  flex: 1;
-  min-height: 100vh;
-  align-items: flex-start;
-  justify-content: center;
-  padding-top: 0;
 }
 
 .key {
-  border: .4rem solid black;
-  border-radius: .5rem;
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
   margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
-  transition: all .07s ease;
+  font-size: 1rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
 }
 
 .playing {
@@ -49,29 +39,21 @@ kbd {
 .sound {
   font-size: 1.2rem;
   text-transform: uppercase;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   color: #ffc600;
 }
 h1 {
-    font-size: 70px !important;
-    text-align: right;
-    margin-right: 75px;
-    
+  font-size: 45px;
+  text-align: right;
+  margin-right: 100px;
 }
 iframe {
-   
-   margin-top: -30px;
-   margin-left: 70%;
-   margin-bottom: 40px;
+  margin-top: -30px;
+  margin-left: 70%;
+  margin-bottom: 40px;
 }
 .how {
-    font-size: 30px !important;
-    position: fixed;
-    margin-top: 155px;
-    margin-left: -155px;
-    
+  font-size: 25px;
 
-    font-size: 65px;
-    
-    
+  text-align: center;
 }
